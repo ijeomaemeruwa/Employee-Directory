@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <link rel="stylesheet" href= "data.css">
+    <title>Employee Data List</title>
+    
+    
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Coax Company Employee Data</h1>
+
+    <hr>
+
+    <form id="data-form">
+
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" class="u-full-width">
+      </div>
+
+      <div>
+        <label for="position">Position</label>
+        <input type="text" id="position" class="u-full-width">
+      </div>
+
+      <div>
+        <label for="status">Status</label>
+        <input type="text" id="status" class="u-full-width">
+      </div>
+
+      <div>
+        <label for="salary">Salary</label>
+        <input type="text" id="salary" class="u-full-width">
+      </div>
+
+      <div>
+        <input type="submit" value="Submit" class="btn" class="u-full-width">
+      </div>
+    </form>
+
+    <hr>
+
+    <table class="u-full-width">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="data-list"></tbody>
+    </table>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

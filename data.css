@@ -1,0 +1,31 @@
+
+body {
+    font-family: ;
+    color: #2d2d2b;
+}
+
+h1 {
+    color: #30384c;
+}
+
+.btn {
+    width: 50%;
+    margin: 0 auto;
+    border: #30384c;
+}
+
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+  }
+
+  .success {
+    background: green;
+  }
+
+  .error {
+    background: red;
+  }
+
+  
